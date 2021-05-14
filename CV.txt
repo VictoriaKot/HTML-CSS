@@ -1,73 +1,70 @@
- 
-<!DOCTYPE html>
-<html>
+<!Doctype html>
+<html lang="en">
 <head>
-<title>My CV</title>
-<link href="cv.css"rel="stylesheet"type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
+<div class="main_box">
+
 <body>
-<div class="box">
-
-
-<img src="cv.jpeg" alt="photo" width="150" height="220" style="position:absolute;top:20px;left:440px;"/> 
-<h1 style="font-size:40px;" "text-align:center;">KOT VICTORIA</h1>
-
-<h2 style="font-size:30px;" "text-align:center;">Junior Qa Manual Engineer</h2>
-
-
-<p style="font-size:25px;" "text-align:right;">Address: Kyiv, Ukraine
-<br><img src="p.png" alt="photo" width="22" height="22" style="align-left;"/> Phone: +38 093-764-91-72
-<br><img src="pn.png" alt="photo" width="21" height="21" style="align-left;"/> Email: Kotvikusya@meta.ua
-<br>Web Profile:<a href="https://www.linkedin.com/in/victoria-kot-35913319a" onclick=this.target="_blank";><u>Linkedin</u></a>
-</p>
-<p style="font-size:26px;" "text-align:left;"><b>Objectives:</b></p>
-<p style="font-size:22px;">Start a career as a traineer/junior QA manual Engineer in IT company.</p>
-
-
-<h2 style="font-size:26px;" "text-align:left;"><b>My strongest trails:</b></h2>
-<p style=" font-size:24px;"><ul>
-<li>Attention to details.</li>
-<li>Analytical mindset.</li>
-<li>A confident desire to learn and improve new skills.</li>
-<li>Strict time management.</li>
-</ul>
-</p>
-
-<h3 style="font-size:26px;" "text-align:left;"><b>Skills and knowledge:</b></h3>
-<p style=" font-size:24px;">
-<ul>
-<li>Bugs verification.</li>
-<li>Executing manual test cases, checklists, testp lans.</li>
-<li>SQL basic.</li>
-<li>HTML,CSS.</li>
-<li>Requirements Analysis.</li>
-<li>Test design techniques.</li>
-</ul>
-</p>
-<h4 style="font-size:26px;" "text-align:left;"><b>Tools and technologies:</b></h4>
-<ul>
-<li>Jira</li>
-<li>Postman</li>
-</ul>
-<p style="position:absolute; left:430px;"><b>Courses:</b> 
-<br> QA Light School
-<br>Speciality:QA Manual Tester 
-<br>02.2021-09.2021</p>
-<hr>
-<p style="text-align:left;"><b>Education:</b>
-<br>Chernihiv National Pedagogical University 
-<br>named by Taras Shevchenko,
-<br>Filology Faculty.
-<br>Magister
-<br>2005-2010.</p>
-
-<p><b> Additional information:</b>
-<br>Language:
-<br>Native Ukrainian, Native Russian, Entermediate English.
-</p>
-
+    
+   <div class="wrapper">
+    
+      <div class="photo_img"><img src="cv.jpeg" alt="photo"> </div>
+      <div class="circle"></div> 
+    </div>
+    
+<div class="contacts">
+        <h1>KOT VICTORIA</h1>
+      
+        <p><br> Address: Kyiv, Ukraine</br>
+        <img src="p.png" alt="phone" height="21" width="21"/>Phone: +38 093-764-91-72</br>
+        <img src=" pn.png" alt="mail" height="21" width="21"/> Email: Kotvikusya@meta.ua</br>
+        Web Profile:<a href="https://www.linkedin.com/in/victoria-kot-35913319a" target="blank"><u>LinkedIN</u></a>
+    </p>
 </div>
 
+<hr>
+
+<div class="about_me">
+ <h2>Junior QA Manual Engineer</h2> 
+
+    <h3>Objectives:</h3> 
+    <p>Start a career as a traineer/junior QA manual Engineer in IT company.</p>
+
+
+<hr>
+
+    <h4>My strongest trails:</h4>
+    <ul>
+        <li>Attention to details.</li>
+        <li>Analytical mindset.</li>
+        <li>A confident desire to learn and improve new skills.</li>
+        <li>Strict time management.</li>
+    </ul>  
+    <h5>Skills and knowledge:</h5>
+    <ul>
+        <li>Bugs verification.</li>
+        <li>Executing manual test cases, checklists, testp lans.</li>
+        <li>SQL basic.</li>
+        <li>HTML,CSS.</li>
+        <li>Requirements Analysis.</li>
+        <li>Test design techniques. </li>
+        </ul> 
+    <h6>Tools and technologies:</h6>
+    <ul>
+    <li>Jira</li>
+    <li>Postman</li>
+    </ul>
+</div>
+
+
+
+
+
+</div>
 </body>
 </html>
